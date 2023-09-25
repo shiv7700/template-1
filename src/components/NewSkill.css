@@ -1,0 +1,165 @@
+.new-skill {
+  background-image: url("../assets/pink-bg.png");
+  height: 400px;
+  width: 100%;
+  display: flex;
+}
+
+.skill-left {
+  width: 58%;
+  padding: 20px;
+  /* border: 3px solid; */
+  margin: 20px 0px 0px 35px;
+}
+
+.skill-left > h3 {
+  font-size: 31px;
+  font-weight: bold;
+  color: #241649;
+  width: 355px;
+  margin: 15px;
+}
+
+.skill-left > input {
+  width: 500px;
+  height: 35px;
+  border: none;
+  padding: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 15px;
+}
+
+.skill-left p {
+  color: #443d6f;
+  font-size: 20px;
+  width: 490px;
+  margin: 15px;
+}
+
+.skill-left span {
+  color: #f3a41c;
+}
+
+.find {
+  display: flex;
+}
+
+.find > div {
+  padding: 5px;
+  margin: 10px;
+  color: #3f305a;
+  background-color: whitesmoke;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  cursor: pointer;
+}
+
+.skill-right > img {
+  width: 60%;
+}
+
+.skill-right {
+  padding: 50px;
+}
+
+.two-column {
+  display: flex;
+  margin-left: -200px;
+}
+
+.two-column > .two-column-right {
+  margin-left: 10px;
+}
+
+.two-column-left > img {
+  height: 310px;
+  width: 264px;
+  margin: -10px 20px 0px 10px;
+  display: block;
+}
+
+.two-column-right > img {
+  height: 159px;
+  width: 154px;
+  display: block;
+}
+
+.top-img {
+  margin: -16px 0px 25px 0px;
+}
+
+/* responsive */
+@media only screen and (max-width: 1100px) {
+  .skill-left > h3 {
+    font-size: 26px;
+  }
+
+  .skill-left > p {
+    font-size: 18px;
+  }
+
+  .skill-left > input {
+    height: 26px;
+    width: 342px;
+    font-size: 15px;
+  }
+
+  .find > div {
+    width: 135px;
+    height: 41px;
+    font-size: 12px;
+    padding: 2px;
+  }
+
+  .two-column-left > img {
+    height: 187px;
+    width: 174px;
+  }
+
+  .two-column-right > img {
+    height: 120px;
+    width: 111px;
+  }
+
+  .new-skill {
+    height: 330px;
+  }
+
+  .two-column {
+    margin-left: -90px;
+  }
+
+  .two-column-left > img {
+    margin: 16px 20px 0px 16px;
+  }
+}
+
+/* responsive */
+@media only screen and (max-width: 900px) {
+  .new-skill {
+    width: 100%;
+  }
+
+  .find{
+    flex-wrap: wrap;
+  }
+
+  .new-skill {
+    height: 467px;
+}
+}
+
+@media only screen and (max-width:600px){
+  .find > div {
+    padding: 5px;
+  }
+
+  .skill-left p {
+    width: 100%;
+  }
+
+  .new-skill{
+    height: max-content;
+  }
+
+
+}

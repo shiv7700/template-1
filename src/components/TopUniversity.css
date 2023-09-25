@@ -1,0 +1,186 @@
+.countries-collection {
+  display: flex;
+  margin: 0 auto;
+
+  width: 80%;
+  padding: 5px;
+}
+
+.countries-collection > div {
+  height: 115px;
+  width: 150px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 3px;
+  padding: 10px;
+  margin: 13px;
+  border-radius: 7px;
+  background-color: #f8f8f8;
+}
+
+.countries-collection img {
+  width: 120px;
+}
+
+.countries-collection h3 {
+  text-align: center;
+  font-size: 21px;
+}
+
+.countries > p {
+  text-align: center;
+  font-size: 16px;
+}
+
+.countries > h2 {
+  text-align: center;
+  font-size: 24px;
+}
+
+.university-card {
+  height: 570px;
+  width: 395px;
+  /* border: 3px solid; */
+  border-radius: 17px;
+  margin: 15px;
+  background-color: #ffffff;
+}
+
+.university-card > img {
+  width: 395px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.flex-col {
+  display: flex;
+  /* border: 3px solid; */
+}
+
+.flex-right {
+  padding-top: 12px;
+}
+
+.university-card > h3 {
+  color: #102b45;
+}
+
+.college-content {
+  margin-left: 10px;
+}
+
+.uni-cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 36px;
+  margin-top: 50px;
+}
+
+.top-university {
+  background-image: url("../assets/ggwp.png");
+  height: 1423px;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 12px;
+}
+
+.top-university > h2 {
+  text-align: center;
+  margin: 0px 0px 0px 0px;
+  font-size: 24px;
+  padding: 20px;
+}
+.top-university > p {
+  margin-left: 380px;
+  width: 607px;
+  height: 43.2px;
+  text-align: center;
+}
+
+.countries {
+  margin: 30px;
+}
+
+.flex-left > img {
+  width: 73px;
+  height: 74px;
+  margin: 13px 0px 0px 0px;
+}
+
+/* responsive */
+@media only screen and (max-width: 1100px) {
+  .top-university > p {
+    margin-left: 180px;
+  }
+  .university-card {
+    height: 500px;
+    width: 279px;
+  }
+
+  .university-card > img {
+    height: 127px;
+    width: 277px;
+  }
+
+  .flex-left > img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .flex-right > p {
+    font-size: 11px;
+  }
+
+  .flex-right > h6 {
+    font-size: 16px;
+  }
+
+  .college-content > h5 {
+    font-size: 16px;
+  }
+
+  .college-content > p {
+    font-size: 11px;
+  }
+
+  .top-university {
+    height: 1290px;
+  }
+}
+
+/* responsive */
+@media only screen and (max-width: 1100px) {
+  .countries-collection img {
+    height: 51px;
+    width: 77px;
+  }
+
+  .countries-collection h3 {
+    font-size: 13px;
+  }
+
+  .countries-collection > div {
+    height: 86px;
+  }
+}
+
+@media only screen and (max-width: 900px){
+  .top-university > p{
+    margin-left: 5%;
+    width: 90%;
+  }
+
+
+
+  .uni-cards{
+    justify-content: center;
+    height: fit-content;
+  }
+
+  .top-university{
+    height: fit-content;
+  }
+
+  .countries-collection{
+    flex-wrap: wrap;
+  }
+
+}

@@ -1,0 +1,119 @@
+.top-collection {
+  margin: 0 auto;
+  /* height: 540px; */
+  width: 90%;
+  background-image: url("../assets/bg-large.png");
+
+  padding: 20px;
+}
+
+.collection-card {
+  height: 180px;
+  width: 400px;
+  display: flex;
+  padding: 7px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+.collection-left {
+  margin: 10px;
+}
+
+.collection-right {
+  height: 146px;
+  width: 190px;
+  margin: 6px;
+}
+
+.collection-left > img {
+  height: 142px;
+  width: 163px;
+}
+
+.collection-right > h3 {
+  font-size: 15px;
+}
+
+.collection-right > p {
+  font-size: 11px;
+}
+
+.view-det {
+  font-size: 14px;
+  background-color: #0b2c4d;
+  color: white;
+  height: 30px;
+  width: 110px;
+  padding: 4px;
+  margin: 29px 0px 0px 80px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.top-collection > h3 {
+  text-align: center;
+  font-size: 24px;
+}
+
+.top-collection > p {
+  text-align: center;
+  width: 607px;
+  height: 43.2px;
+  font-size: 16px;
+  margin: 0px 0px 0px 380px;
+}
+
+.collections-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.collections-flex > .collection-card {
+  margin: 15px;
+}
+
+.banner-know {
+  height: 150px;
+  width: 90%;
+  margin: 40px auto;
+  display: block;
+}
+
+/* responsive */
+@media only screen and (max-width: 1100px) {
+  .banner-know {
+    width: 860px;
+    height: 100px;
+  }
+
+  .top-collection > p {
+    margin: 0px 0px 0px 160px;
+  }
+}
+
+@media only screen and (max-width:600px){
+  .view-det{
+    margin: 2px;
+  }
+
+  .top-collection p{
+    margin-left: 2px;
+  }
+
+  .top-collection p {
+    margin-left: 10%;
+    width: 80%;
+    margin-bottom: 5%;
+  }
+  
+  .collections-flex{
+    justify-content: center;
+  }
+
+  .banner-know {
+    width: 90%;
+    height: 95px;
+}
+}

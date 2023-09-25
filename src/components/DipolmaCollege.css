@@ -1,0 +1,129 @@
+.dipolma-eng {
+  height: 620px;
+  width: 90%;
+  margin: 0 auto;
+  background-image: url("../assets/ggwp.png");
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.agencies {
+  display: flex;
+  margin: 15px 0px 0px 30px;
+  margin: 2px;
+}
+
+.agencies > div {
+  border: 2px solid;
+  width: 123px;
+  height: 30px;
+  font-size: 14px;
+  text-align: center;
+  padding: 3px;
+  margin: 3px;
+}
+
+.dipolma-eng > h2 {
+  text-align: center;
+}
+
+.dipolma-eng > p {
+  text-align: center;
+  margin: 20px;
+}
+
+.college-table {
+  border-collapse: collapse;
+  text-align: center;
+  width: 90%;
+  margin: 32px auto;
+}
+
+.college-table tr {
+  border: 1px solid;
+  height: 50px;
+  width: 100px;
+  background-color: #ffffff;
+}
+
+.college-table td {
+  border: 1px solid;
+  padding: 5px;
+}
+
+.top-place > h2 {
+  text-align: center;
+}
+
+.top-place > p {
+  text-align: center;
+}
+
+.top-place {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.top-place > img {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+.best-for-state {
+  display: flex;
+  margin-left: 156px;
+}
+
+.best-for-state > div {
+  margin: 20px;
+  cursor: pointer;
+}
+
+/* responsive */
+@media only screen and (max-width: 1100px) {
+  .best-for-state img {
+    height: 51px;
+    width: 77px;
+  }
+
+  .best-for-state h4 {
+    font-size: 13px;
+  }
+
+  .best-for-state {
+    margin-left: 200px;
+  }
+
+  .agencies > div {
+    border: 2px solid;
+    width: 223px;
+    height: 41px;
+    font-size: 12px;
+    text-align: center;
+    padding: 0px;
+    margin: 3px;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .agencies{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .dipolma-eng{
+    height: max-content;
+  } 
+
+  .agencies > div{
+    width: 30%;
+    padding: 10px;
+  }
+
+  .best-for-state{
+    flex-wrap: wrap;
+    margin-left: 10%;
+    justify-content: flex-start;
+  }
+}

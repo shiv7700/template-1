@@ -1,0 +1,181 @@
+.green-banner {
+  height: 150px;
+  width: 90%;
+  margin: 40px auto;
+  display: block;
+}
+
+.explore-di {
+  height: 515px;
+  width: 90%;
+  background-image: url("../assets/cross.png");
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.explore-di > h2 {
+  text-align: center;
+}
+
+.explore-di > p {
+  text-align: center;
+}
+
+.di-card {
+}
+
+.card-explore {
+  height: 240px;
+  width: 230px;
+  border: 2px solid orange;
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.full {
+  height: 30px;
+  width: 75px;
+  background-color: #efefef;
+  padding: 5px;
+}
+
+.course {
+  height: 35px;
+  width: 90%;
+  background-color: #0b2c4d;
+  color: white;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.card-explore > h2 {
+  color: #142940;
+}
+
+.explore-flex {
+  display: flex;
+  margin: 38px;
+}
+
+.explore-flex > div {
+  margin: 10px;
+}
+
+.card {
+  height: 270px;
+  width: 250px;
+  border: 2px solid orange;
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 14px;
+}
+
+.application {
+  height: 35px;
+  width: 90%;
+  background-color: #0b2c4d;
+  color: white;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.exam {
+  height: 35px;
+  width: 90%;
+  background-color: #0b2c4d;
+  color: white;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ofl {
+  height: 30px;
+  width: 75px;
+  background-color: #efefef;
+  padding: 5px;
+}
+
+.log-col {
+  display: flex;
+}
+
+.col-right {
+  padding: 12px;
+}
+
+.col-right h4 {
+  color: #142a40;
+}
+
+.card-card {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.card-card > div {
+  margin: 10px;
+}
+
+/* responsive */
+@media only screen and (max-width: 1100px) {
+  .green-banner {
+    width: 860px;
+    height: 100px;
+  }
+}
+
+/* responsive */
+@media only screen and (max-width: 1100px) {
+  .card-card > div {
+    margin: 2px;
+  }
+
+  .card-card {
+    margin: 0px;
+  }
+
+  .col-left > img {
+    height: 72px;
+    width: 72px;
+  }
+
+  .col-right h4 {
+    font-size: 20px;
+  }
+
+  .ofl {
+    padding: 4px;
+  }
+
+  .explore-di {
+    height: 467px;
+  }
+}
+
+@media only screen and (max-width: 900px){
+  .card-card{
+    flex-wrap: wrap;
+  }
+
+  .green-banner{
+    width: 90%;
+    height: 90px;
+  }
+
+  .explore-di{
+    height: max-content;
+  }
+
+  .card-card > .card{
+    margin-bottom: 5%;
+  }
+
+  
+}

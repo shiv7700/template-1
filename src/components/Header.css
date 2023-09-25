@@ -1,0 +1,146 @@
+.header > div {
+  border: 3px solid;
+}
+
+.top-nav {
+  display: flex;
+  background-color: #4b2c78;
+  height: 63px;
+  color: white;
+  padding: 15px 15px 15px 70px;
+}
+
+.top-nav > div {
+  margin-left: 35px;
+  margin-right: 35px;
+  cursor: pointer;
+}
+
+.bottom-nav {
+  display: flex;
+  padding: 10px;
+}
+
+.bottom-nav > div {
+  margin-left: 56px;
+  margin-right: 59px;
+  cursor: pointer;
+}
+
+.left-nav {
+  height: 120px;
+  width: 450px;
+  background-color: #3e247b;
+  padding: 20px;
+  border-right: 5px solid;
+  border-bottom: 5px solid;
+}
+
+.right-nav {
+  height: 120px;
+  width: 100%;
+  /* border: 3px solid; */
+}
+
+.header {
+  display: flex;
+  width: 100%;
+}
+
+.user-login {
+  width: 96px;
+  color: black;
+  background-color: white;
+  position: absolute;
+  padding: 10px;
+  border-radius: 8px;
+  visibility: hidden;
+  display: none; /* Hide the menu by default */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.hover-me:hover .user-login {
+  visibility: visible;
+  display: block; /* Show the menu on hover */
+}
+
+/* for responsiveness  
+@media only screen and (max-width: 600px) {
+}
+*/
+
+@media only screen and (max-width: 1100px) {
+  .left-nav > img {
+    height: 65px;
+    width: 298px;
+  }
+  /* .right-nav {
+    width: 100%;
+  } */
+
+  .top-nav > div {
+    font-size: 14px;
+  }
+  .bottom-nav > div {
+    font-size: 14px;
+  }
+
+  .top-nav {
+    padding: 15px 15px 15px 100px;
+  }
+
+  .top-nav > div {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .bottom-nav > div {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .bottom-nav {
+    padding: 19px 0px 0px 97px;
+  }
+
+  .user-login {
+    width: 75px;
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .right-nav{
+    display: none;
+  }
+
+  .skill-right{
+    display: none;
+  }
+
+  .college-cards{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .left-nav{
+    width: 100%;
+  }
+
+  .find{
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .skill-left input{
+    margin-left: 20%;
+  }
+
+  .left-nav img {
+    margin-left: 20%;
+  }
+
+  
+} 

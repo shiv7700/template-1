@@ -1,0 +1,285 @@
+.latest-block {
+  width: 90%;
+  background-image: url("../assets/latest.png");
+  margin: 55px auto;
+  /* border: 3px solid; */
+  padding: 20px;
+}
+
+.latest-block > h2 {
+  text-align: center;
+}
+
+.latest-block > p {
+  text-align: center;
+}
+
+.lard {
+  display: flex;
+  margin-left: 20px;
+}
+
+.lard > div {
+  margin: 10px;
+  padding: 3px;
+  border: 2px solid;
+  width: 140px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.latest-card-1 {
+  /* border: 2px solid; */
+  width: 423px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  margin: 20px;
+  background-color: #ffffff;
+}
+
+.latest-card-1 > img {
+  height: 200px;
+  width: 420px;
+}
+
+.latest-card-1 > h4 {
+  margin-left: 10px;
+}
+
+.latest-card-1 > p {
+  margin-left: 10px;
+}
+
+.read-more {
+  padding: 5px;
+  border: 2px solid;
+  border-radius: 5px;
+  width: 102px;
+  text-align: center;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.cards-lates {
+  display: flex;
+  margin-left: 15px;
+}
+
+.cards-lates > .latest-card-1,
+.cards-lates > .latest-card-2,
+.cards-lates > .latest-card-3 {
+  margin: 10px;
+}
+
+.latest-card-2 {
+  /* border: 2px solid; */
+  width: 423px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  margin: 20px;
+  background-color: #ffffff;
+}
+
+.latest-card-2 > img {
+  height: 200px;
+  width: 420px;
+}
+
+.latest-card-2 > h4 {
+  margin-left: 10px;
+}
+
+.latest-card-2 > p {
+  margin-left: 10px;
+}
+
+.latest-card-3 {
+  /* border: 2px solid; */
+  width: 423px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  margin: 20px;
+  background-color: #ffffff;
+}
+
+.latest-card-3 > img {
+  height: 200px;
+  width: 420px;
+}
+
+.latest-card-3 > h4 {
+  margin-left: 10px;
+}
+
+.latest-card-3 > p {
+  margin-left: 10px;
+}
+
+.subscribe {
+  background-color: #ffdba7;
+  width: 90%;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.subscribe > h2 {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.subscribe > p {
+  text-align: center;
+}
+
+.subscribe > input {
+  margin: 20px 20px 20px 20px;
+  border: 0.2px solid;
+  height: 40px;
+  padding: 20px;
+}
+
+.three {
+  display: flex;
+  padding-left: 50px;
+}
+
+select {
+  width: 400px;
+  height: 47.5px;
+}
+
+.select-int {
+  padding: 10px;
+}
+
+.three input {
+  margin: 10px;
+}
+
+.link-card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: 50px;
+}
+
+.link-card > div {
+  margin: 10px;
+  border: 2px solid;
+  border-radius: 7px;
+  padding: 10px;
+  width: 200px;
+  cursor: pointer;
+}
+
+.com-link {
+  /* border: 2px solid; */
+  width: 90%;
+  margin: 20px auto;
+}
+
+.com-link > h2,
+.com-link > p {
+  text-align: center;
+}
+
+/* copy for submit  */
+.sumbit {
+  position: absolute;
+  color: white;
+  padding: 10px;
+}
+
+.submit-btn > img {
+  height: 42px;
+  width: 83px;
+}
+
+.submit-btn {
+  margin-left: 50%;
+  cursor: pointer;
+}
+
+/* for responsiveness  
+}
+*/
+@media only screen and (max-width: 1100px) {
+  input {
+    padding: 5px;
+    width: 226px;
+  }
+
+  select {
+    width: 226px;
+    height: 35.5px;
+  }
+
+  .link-card > div {
+    margin: 5px;
+    width: 157px;
+    padding: 5px;
+  }
+
+  .latest-card-1 > img {
+    height: 144px;
+    width: 270px;
+  }
+  .latest-card-2 > img {
+    height: 144px;
+    width: 270px;
+  }
+  .latest-card-3 > img {
+    height: 144px;
+    width: 270px;
+  }
+
+  .latest-card-1 {
+    width: 270px;
+  }
+  .latest-card-2 {
+    width: 270px;
+  }
+  .latest-card-3 {
+    width: 270px;
+  }
+
+  .cards-lates {
+    margin-left: 34px;
+  }
+
+  .latest-card-1 h4 {
+    font-size: 17px;
+  }
+  .latest-card-2 h4 {
+    font-size: 17px;
+  }
+  .latest-card-3 h4 {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .three{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .subscribe{
+    height: 353px;
+  }
+
+  .cards-lates{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .download{
+    width: 100%;
+  }
+
+  .down-one{
+    padding: 2%;
+    justify-content: center;
+  }
+}
